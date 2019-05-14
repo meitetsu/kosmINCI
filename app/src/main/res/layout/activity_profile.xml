@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPlum"
+    tools:context=".ProfileActivity">
+
+    <ImageView
+        android:id="@+id/avatarBackground"
+        android:layout_width="0dp"
+        android:layout_height="200dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@color/colorLightPlum" />
+
+    <ImageView
+        android:id="@+id/avatar"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="8dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.065"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/sample_avatar" />
+
+    <TextView
+        android:id="@+id/profileName"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="28dp"
+        android:layout_marginEnd="8dp"
+        android:text="name name name"
+        android:textColor="@color/colorDarkPlum"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toEndOf="@+id/avatar"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="60dp"
+        android:layout_marginEnd="8dp"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/avatarBackground">
+
+        <LinearLayout
+            android:layout_width="194dp"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="4dp"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/avoidButton"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:layout_marginBottom="4dp"
+                android:background="@color/colorLightPink"
+                android:text="@string/list_of_avoid"
+                android:textColor="@color/colorDarkPlum"
+                android:textSize="18sp" />
+
+            <Button
+                android:id="@+id/lastSearchButton"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:layout_marginTop="4dp"
+                android:background="@color/colorLightPlum"
+                android:text="@string/last_search"
+                android:textColor="@color/colorDarkPlum"
+                android:textSize="18sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="194dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="4dp"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/likeButton"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:layout_marginBottom="4dp"
+                android:background="@color/colorLightPlum"
+                android:text="@string/list_of_like"
+                android:textColor="@color/colorDarkPlum"
+                android:textSize="18sp" />
+
+            <Button
+                android:id="@+id/favoriteButton"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:layout_marginTop="4dp"
+                android:background="@color/colorLightPink"
+                android:text="@string/favorite"
+                android:textColor="@color/colorDarkPlum"
+                android:textSize="18sp" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/profileDescription"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="opis opis opis opis opis opis opis"
+        android:textColor="@color/colorDarkPlum"
+        app:layout_constraintEnd_toEndOf="@+id/profileName"
+        app:layout_constraintStart_toStartOf="@+id/profileName"
+        app:layout_constraintTop_toBottomOf="@+id/profileName" />
+
+    <LinearLayout
+        android:layout_width="414dp"
+        android:layout_height="68dp"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toEndOf="@+id/avatarBackground">
+
+        <Button
+            android:id="@+id/scanButton"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginRight="2dp"
+            android:layout_weight="1"
+            android:background="@color/colorLightPink"
+            android:text="@string/scan"
+            android:textColor="@color/colorDarkPlum" />
+
+        <Button
+            android:id="@+id/searchButton"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="2dp"
+            android:layout_weight="1"
+            android:background="@color/colorLightPink"
+            android:text="@string/search"
+            android:textColor="@color/colorDarkPlum" />
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

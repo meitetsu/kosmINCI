@@ -1,5 +1,25 @@
 <resources>
     <string name="app_name">kosmINCI</string>
+
+    <string name="back4app_server_url">https://parseapi.back4app.com/</string>
+
+    <!-- Change the following strings as required -->
+    <string name="back4app_app_id">HUWxetM7aFNJKgRed7ZOgMJMkgw97esQgIPQxOOI</string>
+    <string name="back4app_client_key">E8cPPaQ6eADMdZDDCCwjhXKSXK3oEPpgGHLa0LDm</string>
+    <string name="admob_app_id">ca-app-pub-7947497512242404~3777318789</string>
+    <string name="admob_ad_unit_id">ca-app-pub-7947497512242404/7425398686</string>
+
     <string name="login">Zaloguj</string>
     <string name="signup">Zarejestruj</string>
+    <string name="logout">Wyloguj</string>
+    <string name="username">Nazwa użytkownika:</string>
+    <string name="password">Hasło:</string>
+    <string name="password_reply">Powtórz hasło:</string>
+    <string name="list_of_avoid">Lista składników, których unikam</string>
+    <string name="list_of_like">Lista składników, które lubię</string>
+    <string name="last_search">Ostatnio wyszukiwane</string>
+    <string name="favorite">Ulubione kosmetyki</string>
+    <string name="search">Wyszukaj</string>
+    <string name="scan">Skanuj</string>
+
 </resources>
