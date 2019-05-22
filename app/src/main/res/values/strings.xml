@@ -8,6 +8,7 @@
     <string name="back4app_client_key">E8cPPaQ6eADMdZDDCCwjhXKSXK3oEPpgGHLa0LDm</string>
     <string name="admob_app_id">ca-app-pub-7947497512242404~3777318789</string>
     <string name="admob_ad_unit_id">ca-app-pub-7947497512242404/7425398686</string>
+    <string name="admob_banner_test">ca-app-pub-3940256099942544/6300978111</string>
 
     <string name="login">Zaloguj</string>
     <string name="signup">Zarejestruj</string>
