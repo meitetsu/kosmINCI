@@ -14,7 +14,10 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".ProfileActivity"></activity>
+        <activity android:name=".AddCosmeticActivity"></activity>
+        <activity android:name=".CosmeticListActivity" />
+        <activity android:name=".SearchActivity" />
+        <activity android:name=".ProfileActivity" />
         <activity android:name=".LogoutActivity" />
         <activity android:name=".LoginActivity" />
         <activity android:name=".SignUpActivity" /> <!-- tools:replace="android:appComponentFactory"> -->
@@ -34,13 +37,10 @@
             android:value="@string/back4app_app_id" />
         <meta-data
             android:name="com.parse.CLIENT_KEY"
-            android:value="@string/back4app_client_key" />
-
-        <!-- Sample AdMob App ID: ca-app-pub-3940256099942544~3347511713 -->
+            android:value="@string/back4app_client_key" /> <!-- Sample AdMob App ID: ca-app-pub-3940256099942544~3347511713 -->
         <meta-data
             android:name="com.google.android.gms.ads.APPLICATION_ID"
-            android:value="ca-app-pub-7947497512242404~3777318789"/>
-
+            android:value="ca-app-pub-7947497512242404~3777318789" />
     </application>
 
 </manifest>

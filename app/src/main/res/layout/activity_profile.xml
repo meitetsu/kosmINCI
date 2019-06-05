@@ -45,7 +45,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <LinearLayout
-        android:id="@+id/linearLayout"
+        android:id="@+id/cosmeticListLayout"
         android:layout_width="0dp"
         android:layout_height="209dp"
         android:layout_marginStart="8dp"
